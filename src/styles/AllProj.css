@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     height: 500px;
-    width: 1460px;
+    width: 1350px;
     margin-top: 4%;
 }
 .slider-button-left, .slider-button-right {
@@ -65,7 +65,7 @@
     color: white;
     font-size: 18px;
     border-top-right-radius: 20px;
-    width: 870px;
+    width: 800px;
     text-align: justify;
 }
 
@@ -81,6 +81,7 @@
     .project-slider-container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         padding-top: 86px;
     }
@@ -93,6 +94,8 @@
         box-shadow: 0 0 3px 3px rgb(253, 253, 2, 0.5);
         display: flex;
         flex-direction: column;
+        width: 500px;
+        height: auto;
         margin-top: 9%;
     }
     .slider-button-left, .slider-button-right {
@@ -122,6 +125,7 @@
         max-width: 79vw;
         color: white;
         font-size: 18px;
+        width: 450px;
         border-top-right-radius: 20px;
         text-align: justify;
     }
