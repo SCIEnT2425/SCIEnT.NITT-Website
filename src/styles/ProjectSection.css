@@ -1,0 +1,90 @@
+.project-section {
+  background-color: #000000;
+  color: #fff;
+  padding: 80px 60px 20px 60px;
+   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.project-section h2 {
+  border-bottom: 3px solid #bebb00;
+  width: auto;
+  display: flex;
+  align-self: center;
+  font-size: 35px;
+  padding-bottom: 0.6%;
+  margin-bottom: 3%;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.project-item {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+}
+.project-item select {
+  background-color: #242222;
+  cursor: pointer;
+  border: none;
+  padding: 7px;
+  display: flex;
+  width: 25vw;
+}
+.project-item select option {
+  width: 300px;
+  cursor: pointer;
+  background-color: rgb(15, 14, 14);
+}
+.project-item select:hover {
+  border: none;
+}
+@media only screen and (max-width: 1006px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .project-item select {
+    background-color: #242222;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    display: flex;
+    width: 34vw;
+  }
+}
+@media only screen and (max-width: 1006px) {
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+@media only screen and (max-width: 490px) {
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: center;
+    }
+    .project-item select {
+      background-color: #242222;
+      cursor: pointer;
+      border: none;
+      padding: 12px;
+      display: flex;
+      width: 70vw;
+    }
+  }
+}
