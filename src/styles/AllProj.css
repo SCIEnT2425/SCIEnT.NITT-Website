@@ -37,7 +37,7 @@
     border-radius: 50%;
     margin: 29% 3% 0 3%;
     font-size: 35px;
-    margin-top: -3%;
+    margin-top: -1%;
     cursor: pointer;
 }
 .project-box .project-name {
@@ -70,7 +70,7 @@
     text-align: justify;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 490px) {
     
     .project-slider-container .row {
         margin-left: 206px;
@@ -95,7 +95,7 @@
         box-shadow: 0 0 3px 3px rgb(253, 253, 2, 0.5);
         display: flex;
         flex-direction: column;
-        width: 350px;
+        width: 400px;
         height: auto;
         padding: 0 1% 1% 1%;
         margin-top: 9%;
@@ -128,6 +128,7 @@
         color: white;
         font-size: 18px;
         width: auto;
+        padding: 0 1% 1% 1%;
         border-top-right-radius: 20px;
         text-align: justify;
     }
