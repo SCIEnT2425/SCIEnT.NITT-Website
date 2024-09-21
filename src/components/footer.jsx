@@ -20,10 +20,10 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="http://localhost:3000/gallery">Gallery</a>
+                <a href="/gallery">Gallery</a>
               </li>
               <li>
-                <a href="http://localhost:3000/project">Projects</a>
+                <a href="/project">Projects</a>
               </li>
             </ul>
             <ul className="column2">

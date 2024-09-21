@@ -23,7 +23,7 @@ const ClubOrbit = () => {
                 <ul class="orbit-wrap">
 
                     <li class="orbit-center">
-                    {/* <div className="logo-orbitcenter">
+                        {/* <div className="logo-orbitcenter">
           <img src={logo} alt="Logo" />
         </div> */}
                         <p className='p1'>A growing space of</p>
@@ -42,31 +42,86 @@ const ClubOrbit = () => {
 
                     <li>
                         <ul class="ring-1">
-                            
-                            
+
+
                         </ul>
                     </li>
                     <li>
                         <ul class="ring-2">
-                            <li><img className="orbit-icon " src={thirdD} alt="" /></li>
-                            <li><img className="orbit-icon " src={spider} alt="" /></li>
-                            
-                            <li><img className="orbit-icon " src={sigma} alt="" /></li>
-                            <li><img className="orbit-icon " src={DC180} alt="" /></li>
-                            <li><img className="orbit-icon " src={nak} alt="" /></li>
-                            <li><img className="orbit-icon " src={delta} alt="" /></li>
-                            <li><img className="orbit-icon psi" src={psi} alt="" /></li>
-                            <li><img className="orbit-icon " src={graphi} alt="" /></li>
-
+                            <li>
+                                <a href="https://3d.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon" src={thirdD} alt="ThirdD Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://spider.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon" src={spider} alt="Spider Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://sigma.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon" src={sigma} alt="Sigma Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.180dc.org/branches/NIT-Trichy"
+                                    target="_blank"
+                                >
+                                    <img className="orbit-icon" src={DC180} alt="DC180 Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://nakshatra.nitt.edu/#home" target="_blank">
+                                    <img className="orbit-icon" src={nak} alt="Nakshatra Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://delta.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon" src={delta} alt="Delta Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://psi.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon psi" src={psi} alt="Psi Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/company/graphiquenitt/"
+                                    target="_blank"
+                                >
+                                    <img className="orbit-icon" src={graphi} alt="Graphi Club" />
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <ul class="ring-3">
-                            <li><img className="orbit-icon " src={rmi} alt="" /></li> 
-                            <li><img className="orbit-icon dc " src={dc} alt="" /></li>
-                            <li><img className="orbit-icon ecell" src={ecell} alt="" /></li>
-                            <li><img className="orbit-icon prof" src={prof} alt="" /></li>
-
+                            <li>
+                                <a href="https://rmi.nitt.edu/" target="_blank">
+                                    <img className="orbit-icon" src={rmi} alt="RMI Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/dcnitt/" target="_blank">
+                                    <img className="orbit-icon dc" src={dc} alt="DC Club" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ecell-nitt.org/" target="_blank">
+                                    <img
+                                        className="orbit-icon ecell"
+                                        src={ecell}
+                                        alt="E-Cell Club"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://profnitt.com/" target="_blank">
+                                    <img className="orbit-icon prof" src={prof} alt="Prof Club" />
+                                </a>
+                            </li>
                         </ul>
                     </li>
 
