@@ -274,7 +274,7 @@ const About = () => {
 
   return (
     <div>
-      <h1>TIMELINE</h1>
+      <h1>About Page</h1>
       <SimpleTimeLine timelineData={timelineData} />
       <Footer />
     </div>

@@ -35,7 +35,7 @@ const Navbar = () => {
                         onClick={handleClick}
                         className={`nav-link ${isActive('/about') ? 'active' : ''}`}
                     >
-                        About Us
+                        Timeline
                     </Link>
 
                     <Link
